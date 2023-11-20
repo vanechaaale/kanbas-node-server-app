@@ -1,6 +1,5 @@
 import "dotenv/config";
 import express from 'express'
-import session from "express-session";
 import Hello from "./hello.js"
 import Lab5 from "./lab5.js";
 import cors from "cors";
