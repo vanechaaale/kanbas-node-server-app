@@ -1,7 +1,5 @@
 import "dotenv/config";
 import express from 'express'
-import Hello from "./hello.js"
-import Lab5 from "./lab5.js";
 import cors from "cors";
 import mongoose from "mongoose";
 import UserRoutes from "./users/routes.js";
@@ -15,6 +13,4 @@ app.use(express.json());
 UserRoutes(app);
 ModuleRoutes(app);
 CourseRoutes(app);
-Lab5(app);
-Hello(app)
 app.listen(process.env.PORT || 4000);
